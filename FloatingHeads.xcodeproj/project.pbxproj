@@ -13,6 +13,8 @@
 		BDFC4CD01B727B250057AA2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFC4CCF1B727B250057AA2A /* Images.xcassets */; };
 		BDFC4CD31B727B250057AA2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFC4CD11B727B250057AA2A /* LaunchScreen.xib */; };
 		BDFC4CDF1B727B250057AA2A /* FloatingHeadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4CDE1B727B250057AA2A /* FloatingHeadsTests.swift */; };
+		BDFC4CE91B727ECC0057AA2A /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4CE81B727ECC0057AA2A /* FloatingButton.swift */; };
+		BDFC4CEB1B7289550057AA2A /* FloatingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4CEA1B7289550057AA2A /* FloatingMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BDFC4CD81B727B250057AA2A /* FloatingHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFC4CDD1B727B250057AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDFC4CDE1B727B250057AA2A /* FloatingHeadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingHeadsTests.swift; sourceTree = "<group>"; };
+		BDFC4CE81B727ECC0057AA2A /* FloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		BDFC4CEA1B7289550057AA2A /* FloatingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				BDFC4CC81B727B250057AA2A /* AppDelegate.swift */,
 				BDFC4CCA1B727B250057AA2A /* ViewController.swift */,
+				BDFC4CEA1B7289550057AA2A /* FloatingMenuViewController.swift */,
+				BDFC4CE81B727ECC0057AA2A /* FloatingButton.swift */,
 				BDFC4CCC1B727B250057AA2A /* Main.storyboard */,
 				BDFC4CCF1B727B250057AA2A /* Images.xcassets */,
 				BDFC4CD11B727B250057AA2A /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				BDFC4CCB1B727B250057AA2A /* ViewController.swift in Sources */,
 				BDFC4CC91B727B250057AA2A /* AppDelegate.swift in Sources */,
+				BDFC4CEB1B7289550057AA2A /* FloatingMenuViewController.swift in Sources */,
+				BDFC4CE91B727ECC0057AA2A /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
